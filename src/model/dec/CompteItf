@@ -1,0 +1,11 @@
+package model.dec;
+
+public interface CompteItf
+
+public String getOwner(){return this.owner;}//ou return owner
+
+	public String getNum(){return this.num;}
+
+	public String getNBalance() {return this.balance;}
+
+	public void setBalance(double newBalance) {this.balance=newBalance;}
